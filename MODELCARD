@@ -1,10 +1,10 @@
-**Input:** 
+##Input
 Continuous input variables in the range [1, 0], with dimensionality ranging from 2 to 8. 
 
-**Output:** 
+##Output
 A single scalar output representing the performance of each input. 
 
-**Model Architecture:** 
+##Model Architecture
 The model is based on Bayesian Optimisation, using Gaussian Process surrogate models to approximate the unknown functions. The GP predicts the function values and uncertainty which are used by the acquisition functions to select the next query point. Acquisition functions used were Upper Confidence Bound and Expected Improvement. 
 
 PCA projections were used to analyse data patterns. For Function 7, an SVM classifier was applied to approximate a boundary of the high performing region and this was used to filter proposed candidate points. 
