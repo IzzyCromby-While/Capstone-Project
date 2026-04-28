@@ -1,4 +1,4 @@
-## Model Card
+# Model Card
 
 ## Overview 
 •	Name: Bayesian Optimisation for Black Box Function Optimisation
