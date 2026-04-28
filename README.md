@@ -36,11 +36,29 @@ Across 5/8 functions (3, 4, 6, 7, 8), the optimisation strategy achieved clear i
 
 As demonstrated in the graphs below, results reflect a balanced exploration-exploitation approach with early iterations sampling broadly and later iterations increasingly informed by prior observations to target high-performing regions. 
 
-In the latter stages, results generally stabilised within strong performing regions. While this does not guarantee identification of the global maximum, it provides evidence that robust, high-value regions were effectively located and exploited. 
+In the latter stages, results generally stabilised within strong performing regions. While this does not guarantee identification of the global maximum, it provides evidence that robust, high-value regions were effectively located and exploited.
+### Function 3
+<img src="Functions/function_3/03_function_3_graph.png" width="500"/>
 
-Function 5 demonstrated continued improvement without stabilisation, indicating that further optimisation may have been possible beyond the iteration budget. 
+### Function 4
+<img src="Functions/function_4/04_function_4_graph.png" width="500"/>
+
+### Function 6
+<img src="Functions/function_6/06_function_6_graph.png" width="500"/>
+
+### Function 7
+<img src="Functions/function_7/07_function_7_graph.png" width="500"/>
+
+Function 5 demonstrated continued improvement without stabilisation, indicating that further optimisation may have been possible beyond the iteration budget.
+### Function 5
+<img src="Functions/function_5/05_function_5_graph.png" width="500"/>
 
 There was little optimisation success for function 1 and 2. No clear signal was identified for function one and function 2 demonstrated inconsistent improvements and did not sustain performance above the baseline. These outcomes were influenced by implementation challenges which are documented in week-by-week results for each function provided in the function folders. 
+### Function 1
+<img src="Functions/function_1/01_function_1_graph.png" width="500"/>
+
+### Function 2
+<img src="Functions/function_2/02_function_2_graph.png" width="500"/>
 
 
 ## CONTACT DETAILS
