@@ -27,7 +27,7 @@ For extremely high dimensional optimisation problems
 ## Limitations
 - The approach relies on the assumption that the Gaussian Process surrogate models adequately represent the underlying function. The nature of the task means this may not always be the case, meaning the GP could potentially miss high performing regions. 
 - Having only 13 queries, knowledge of the search sparse, particularly in high dimensional functions. This increases the likelihood of missing the global maximum. 
--The model has been developed as part of a learning process. Earlier rounds may include suboptimal decisions that were refined over time. This has lead to some inefficient use of evaluation rounds. 
+- The model has been developed as part of a learning process. Earlier rounds may include suboptimal decisions that were refined over time. This has lead to some inefficient use of evaluation rounds. 
 
 ## Trade-offs
 The trade-off between exploration and exploitation has shaped the optimisation process. Exploring improves understanding of the search space, reducing the likelihood of missing a global maximum, exploiting refines known well performing regions. This reflects the nature of black-box optimisation, where decisions must be made under uncertainty with limited evaluation budgets. 
