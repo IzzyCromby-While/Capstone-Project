@@ -49,6 +49,9 @@ In the latter stages, results generally stabilised within strong performing regi
 ### Function 7
 <img src="Functions/function_7/07_function_7_graph.png" width="500"/>
 
+### Function 8
+<img src="Functions/function_8/08_function_8_graph.png" width="500"/> 
+
 Function 5 demonstrated continued improvement without stabilisation, indicating that further optimisation may have been possible beyond the iteration budget.
 ### Function 5
 <img src="Functions/function_5/05_function_5_graph.png" width="500"/>
