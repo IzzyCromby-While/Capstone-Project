@@ -42,6 +42,7 @@ Function 5 demonstrated continued improvement without stabilisation, indicating 
 
 There was little optimisation success for function 1 and 2. No clear signal was identified for function one and function 2 demonstrated inconsistent improvements and did not sustain performance above the baseline. These outcomes were influenced by implementation challenges which are documented in week-by-week results for each function provided in the function folders. 
 
+
 ## CONTACT DETAILS
 Linkedin: https://www.linkedin.com/in/isobella-cromby-while-b42350225/
 
