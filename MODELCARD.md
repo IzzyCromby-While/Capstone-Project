@@ -14,6 +14,16 @@ Continuous input variables in the range [0, 1], with dimensionality ranging from
 ## Performance
 Success in this task is defined by demonstrating an effective optimisation strategy, improving on initial baselines, balancing exploration and exploitation and iteratively improving. This was clearly demonstrated in 6/8 of the functions (2, 3, 4, 5, 6, 7, 8). Performance was limited for function 1 and 2. For full details, see the results section in the README file, or the performance graphs provided for each function in the function folders. 
 
+## Intended Uses 
+The model should be used in circumstances when a function is unknown and particularly expensive or difficult to evaluate.
+The model also serves as a record of the learning process involved in developing and refining a black-box optimisation strategy. 
+
+## Inappropriate Uses 
+The model should not be used: 
+In real life situations when reliably finding a global optimum is required
+When evaluation budgets are not limited 
+For extremely high dimensional optimisation problems 
+
 ## Limitations
 - The approach relies on the assumption that the Gaussian Process surrogate models adequately represent the underlying function. The nature of the task means this may not always be the case, meaning the GP could potentially miss high performing regions. 
 - Having only 13 queries, knowledge of the search sparse, particularly in high dimensional functions. This increases the likelihood of missing the global maximum. 
@@ -21,3 +31,7 @@ Success in this task is defined by demonstrating an effective optimisation strat
 
 ## Trade-offs
 The trade-off between exploration and exploitation has shaped the optimisation process. Exploring improves understanding of the search space, reducing the likelihood of missing a global maximum, exploiting refines known well performing regions. This reflects the nature of black-box optimisation, where decisions must be made under uncertainty with limited evaluation budgets. 
+
+## Ethical Considerations 
+All code is clearly labelled. For every function there is a document attached clearly stating my decision process. This ensures the reproducibility and transparency of the model. 
+Please refer to the indended uses above and datasheet linked for further information.
